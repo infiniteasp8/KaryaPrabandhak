@@ -1,0 +1,128 @@
+/* .wrapper{
+    background-color: #d4a0bb;
+} */
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+
+  button.btn {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  
+  button.btn-outline-primary {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  
+  .app-todo-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .app-todo-item h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  
+  .app-todo-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .app-todo-item button {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  
+  .accordion {
+    margin-top: 20px;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  .empty-todos-message {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h4 {
+      font-size: 20px;
+    }
+  
+    .app-todo-item {
+      padding: 8px;
+    }
+  
+    .app-todo-item h5 {
+      font-size: 18px;
+    }
+  
+    .app-todo-item p {
+      font-size: 14px;
+    }
+  
+    .footer {
+      font-size: 12px;
+    }
+    /* #csv{
+      margin-bottom: 5px;
+    } */
+    button.btn {
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+  }
+  
+  
